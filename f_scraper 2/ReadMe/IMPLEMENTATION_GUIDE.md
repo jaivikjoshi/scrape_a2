@@ -15,15 +15,10 @@ This document provides guidance on how to implement a final scraper. The compone
 5. **Authentication Circumvention**: Bypassing security measures may violate the Computer Fraud and Abuse Act (CFAA) or similar laws in other countries.
 
 
-### Step 1: Determine Data Needs
-
-Clearly define what data you need and why. Consider:
-- Is this data available through official channels?
-- Do you need all the data or just a subset?
-- How frequently do you need to update the data?
 
 
-### Step 2: Design Your Architecture
+
+### Step 1: Design Your Architecture
 
 Create a modular architecture that separates:
 - Data acquisition (API clients, ethical scrapers)
@@ -49,7 +44,7 @@ class EthicalDataCollector:
         pass
 ```
 
-### Step 3: Implement Caching and Storage
+### Step 2: Implement Caching and Storage
 
 Minimize requests by implementing effective caching:
 
@@ -81,7 +76,7 @@ class DataCache:
             json.dump(data, f)
 ```
 
-### Step 4: Document and Monitor Usage
+### Step 3: Document and Monitor Usage
 
 Maintain clear documentation and monitor your data collection:
 
