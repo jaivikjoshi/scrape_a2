@@ -1,0 +1,14 @@
+requests==2.31.0
+beautifulsoup4==4.12.2
+selenium
+webdriver-manager
+fake-useragent==1.1.3
+tqdm>=4.64.0
+cloudscraper==1.2.71
+requests-ip-rotator>=1.0.13
+random-user-agent>=1.0.1
+stem>=1.8.0
+requests-html>=0.10.0
+scrapy>=2.7.0
+playwright==1.40.0
+pyppeteer-stealth==2.7.4

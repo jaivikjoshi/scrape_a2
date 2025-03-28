@@ -1,0 +1,5 @@
+http://example-proxy1.com:8080
+http://example-proxy2.com:8080
+http://example-proxy3.com:8080
+http://example-proxy4.com:8080
+http://example-proxy5.com:8080
